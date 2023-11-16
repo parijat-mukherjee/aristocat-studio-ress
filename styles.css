@@ -1,0 +1,633 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  display: flex;
+  position: relative;
+  background-image: url("./pics/sky.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.cloud {
+  display: flex;
+  position: absolute;
+  background-image: url("./pics/cloud.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.silhouette {
+  display: flex;
+  position: absolute;
+  background-image: url("./pics/silhouette.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.building-one {
+  display: flex;
+  position: absolute;
+  background-image: url("./pics/building-one.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.building-two {
+  display: flex;
+  position: absolute;
+  background-image: url("./pics/building-two.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.building-three {
+  display: flex;
+  position: absolute;
+  background-image: url("./pics/building-three.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.building-main {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.building-main-img {
+  width: 100%;
+  height: 100%;
+}
+
+.roof {
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 21%;
+}
+
+.roof-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.illustration {
+  display: flex;
+  position: absolute;
+  top: 23.5%;
+  left: 15%;
+}
+
+.illustration-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.animation {
+  display: flex;
+  position: absolute;
+  top: 32.7%;
+  left: 20%;
+}
+
+.animation-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  top: 46.5%;
+  left: 14.5%;
+}
+
+.content-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.testimonial {
+  display: flex;
+  position: absolute;
+  top: 72%;
+  left: 25%;
+}
+
+.testimonial-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.spray-painter {
+  display: flex;
+  position: absolute;
+  top: 83%;
+  left: 6%;
+}
+
+.spray-painter-img {
+  max-width: 80%;
+  max-height: 80%;
+  width: auto;
+  height: auto;
+}
+
+.disc-jockey {
+  display: flex;
+  position: absolute;
+  top: 89.25%;
+  left: 73.25%;
+}
+
+.disc-jockey-img {
+  max-width: 90%;
+  max-height: 90%;
+  width: auto;
+  height: auto;
+}
+
+/* Media Queries */
+
+/* Extra Small Devices, Phones (up to 576px) */
+@media only screen and (max-width: 576px) {
+  .roof {
+    display: flex;
+    position: absolute;
+    top: 8.5%;
+    left: 18%;
+  }
+
+  .illustration {
+    display: flex;
+    position: absolute;
+    top: 23.5%;
+    left: 15%;
+  }
+
+  .illustration-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .animation {
+    display: flex;
+    position: absolute;
+    top: 32.7%;
+    left: 20%;
+  }
+
+  .animation-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 12%;
+  }
+
+  .content-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .webdev {
+    display: flex;
+    position: absolute;
+    top: 58.25%;
+    left: 26.5%;
+  }
+
+  .webdev-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .testimonial {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+  }
+
+  .testimonial-img {
+    max-width: 65%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+  }
+
+  .spray-painter {
+    display: flex;
+    position: absolute;
+    top: 85%;
+    left: 9%;
+  }
+
+  .spray-painter-img {
+    max-width: 20%;
+    max-height: 20%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Small Devices, Tablets (576px - 768px) */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .roof {
+    display: flex;
+    position: absolute;
+    top: 8.5%;
+    left: 18%;
+  }
+
+  .illustration {
+    display: flex;
+    position: absolute;
+    top: 23%;
+    left: 11%;
+  }
+
+  .illustration-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .animation {
+    display: flex;
+    position: absolute;
+    top: 32.7%;
+    left: 20%;
+  }
+
+  .animation-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 12%;
+  }
+
+  .content-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .webdev {
+    display: flex;
+    position: absolute;
+    top: 58.25%;
+    left: 26.5%;
+  }
+
+  .webdev-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .testimonial {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+  }
+
+  .testimonial-img {
+    max-width: 65%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+  }
+
+  .spray-painter {
+    display: flex;
+    position: absolute;
+    top: 84.5%;
+    left: 8%;
+  }
+
+  .spray-painter-img {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Medium Devices, Desktops (768px - 992px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .roof {
+    display: flex;
+    position: absolute;
+    top: 8.5%;
+    left: 18%;
+  }
+
+  .illustration {
+    display: flex;
+    position: absolute;
+    top: 23%;
+    left: 11%;
+  }
+
+  .illustration-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .animation {
+    display: flex;
+    position: absolute;
+    top: 32.7%;
+    left: 20%;
+  }
+
+  .animation-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 12%;
+  }
+
+  .content-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .webdev {
+    display: flex;
+    position: absolute;
+    top: 58.25%;
+    left: 26.5%;
+  }
+
+  .webdev-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .testimonial {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+  }
+
+  .testimonial-img {
+    max-width: 65%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+  }
+
+  .spray-painter {
+    display: flex;
+    position: absolute;
+    top: 84.5%;
+    left: 8%;
+  }
+
+  .spray-painter-img {
+    max-width: 45%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Large Devices, Desktops (992px - 1200px) */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .roof {
+    display: flex;
+    position: absolute;
+    top: 8.5%;
+    left: 18%;
+  }
+
+  .illustration {
+    display: flex;
+    position: absolute;
+    top: 23%;
+    left: 11%;
+  }
+
+  .illustration-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .animation {
+    display: flex;
+    position: absolute;
+    top: 32.7%;
+    left: 20%;
+  }
+
+  .animation-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    position: absolute;
+    top: 46%;
+    left: 12%;
+  }
+
+  .content-img {
+    max-width: 70%;
+    max-height: 70%;
+    width: auto;
+    height: auto;
+  }
+
+  .webdev {
+    display: flex;
+    position: absolute;
+    top: 58.25%;
+    left: 26.5%;
+  }
+
+  .webdev-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .testimonial {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+  }
+
+  .testimonial-img {
+    max-width: 65%;
+    max-height: 65%;
+    width: auto;
+    height: auto;
+  }
+
+  .spray-painter {
+    display: flex;
+    position: absolute;
+    top: 84.5%;
+    left: 8%;
+  }
+
+  .spray-painter-img {
+    max-width: 45%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Extra Large Devices, Large Desktops (1200px and above) */
+@media only screen and (min-width: 1201px) {
+  .roof {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+  }
+
+  .illustration {
+    display: flex;
+    position: absolute;
+    top: 23.5%;
+    left: 15%;
+  }
+
+  .illustration-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .animation {
+    display: flex;
+    position: absolute;
+    top: 32.7%;
+    left: 20%;
+  }
+
+  .animation-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .content {
+    display: flex;
+    position: absolute;
+    top: 46.5%;
+    left: 14.5%;
+  }
+
+  .content-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .webdev {
+    display: flex;
+    position: absolute;
+    top: 58.25%;
+    left: 26.5%;
+  }
+
+  .webdev-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .testimonial {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 25%;
+  }
+
+  .testimonial-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+}

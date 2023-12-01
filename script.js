@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   const layers = document.querySelectorAll(".parallax-layer");
+  console.log(layers);
   const mainBuildingLayer = document.querySelector(".building-main-img");
+  const layerSpeeds = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4];
 
   let latestScrollY = window.scrollY;
   let ticking = false;
@@ -10,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const deltaScroll = scrollY - latestScrollY;
 
     layers.forEach(function (layer, index) {
-      const speed = 0.04 * (index + 1); // Adjust the speed as needed
+      const speed = layerSpeeds[index]; // Adjust the speed as needed
       const yPos = scrollY * speed;
 
       // Background layers move slower than the main building layer
